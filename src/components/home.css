@@ -1,0 +1,147 @@
+:root{
+    --textColor:rgb(151, 144, 144);
+}
+
+
+.header{
+    font-size: 40px;
+    font-weight:700;
+    margin-bottom: 10px;
+}
+.middle{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:space-between;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+.first>p{
+    color:var(--textColor);
+    margin-bottom: 50px;
+}
+.first>button{
+    background-color: rgb(233, 44, 44);
+    border: none;
+    width: 150px;
+    height: 37px;
+    border-radius: 18px;
+    margin-bottom: 50px;
+}
+.apple-icon{
+    float: left;
+    position: relative;
+    top: 10px;
+}
+.app-icon-mid{
+    width: 160px;
+}
+.app-icon-mid>span{
+    color: rgba(255, 255, 255, 0.788)
+}
+.big-letter{
+    font-size: 20px;
+    font-weight: 500;
+}
+.first-mid-img{
+    border-radius: 90px !important;
+    position: relative;
+    z-index: 1;
+    top: 20px;
+    height: 450px;
+}
+.second-mid-img{
+    position:absolute;
+    z-index: 0;
+    top: 350px;
+    height: 450px;
+    border-radius: 90px !important;
+}
+.btn-toggle{
+    position:relative;
+    z-index: 5;
+    color: black;
+    border: none;
+    font-size: 29px;
+    font-weight: 600;
+    letter-spacing: -5px;
+    border-radius: 15px;
+    cursor: pointer;
+    bottom: 200px;
+    left: 100px;
+}
+.mid-right-head{
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 700;
+}
+.mid-right-down{
+    color: gray;
+}
+.social-icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footer{
+    background-color: red;
+    height: 150px;
+    position: relative;
+   border-radius: 80px 80px 0px 0px;
+   margin-top: -140px;
+}
+.footer-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;  
+    font-size: larger;
+    padding-top: 15px;
+    font-weight: bold;  
+}
+.footer>p{
+    font-size: larger;
+    font-weight: 650;
+    letter-spacing: 6px;
+}
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.footer-content-mid{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.vert-line{
+    display: inline-block;
+    background-color: white;
+    height: 50px;
+    width: 2px;
+}
+.footer-content-head{
+    font-size: larger;
+    font-weight: 700;
+}
+.footer-content-foot{
+    font-size: 14px;
+    color: rgba(245, 245, 245, 0.7);
+    
+}
+.images-content-arrow{
+    position: relative;
+}
+@media screen and (width<768px){
+   .first-mid-img{
+    display: none;
+   }
+   .second-mid-img{
+    display: none;
+   }
+   .btn-toggle{
+    display: none;
+   }
+}
